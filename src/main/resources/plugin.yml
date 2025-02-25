@@ -1,0 +1,29 @@
+name: Preblons
+main: com.preblons.Main
+version: 1.0
+commands:
+  broadcast:
+    description: Envia um broadcast para todos os jogadores.
+    usage: /broadcast <mensagem>
+    aliases:
+      - bc
+      - aviso
+
+  clearchat:
+    description: Limpa o chat do servidor.
+    usage: /clearchat
+
+  announcements-reload:
+    description: Recarrega as configurações do plugin.
+    usage: /announcements-reload
+
+permissions:
+  preblons.bc:
+    description: Permite enviar um broadcast.
+    default: op
+  limpar.chat:
+    description: Permite limpar o chat.
+    default: op
+  preblons.reload:
+    description: Permissão para recarregar a configuração do plugin.
+    default: op

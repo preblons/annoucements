@@ -1,0 +1,5 @@
+# defina aqui o prefix do broadcast
+# exemplo: &4&lAVISO - {message}
+# {message} = mensagem do /bc
+
+prefix: "&4&lAVISO » &f{message}"
