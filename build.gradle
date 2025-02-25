@@ -13,18 +13,13 @@ repositories {
 }
 
 dependencies {
-    // Define a versão base do Spigot e permite a seleção de versões diferentes
     compileOnly "org.spigotmc:spigot-api:${project.hasProperty('spigotVersion') ? spigotVersion : '1.8.8-R0.1-SNAPSHOT'}"
 
-    // Para compatibilidade com a versão do Bukkit, se necessário
     compileOnly 'org.bukkit:bukkit:1.8.8-R0.1-SNAPSHOT'
-
-    // Adicione mais dependências conforme necessário
 }
 
 ext {
-    // Define a versão do Spigot de maneira flexível, podendo ser alterada
-    spigotVersion = '1.8.8-R0.1-SNAPSHOT'  // Ou qualquer versão que você queira usar, por exemplo: '1.16.5-R0.1-SNAPSHOT'
+    spigotVersion = '1.8.8-R0.1-SNAPSHOT'
 }
 
 tasks.named('test') {
