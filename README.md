@@ -41,4 +41,4 @@ Se você encontrar algum problema ou deseja melhorar o plugin, sinta-se à vonta
 
 ## 📫 Contato
 
-- 💬 [Discord](https://discord.gg/VzDnWtcmNn) - Para suporte ou feedback.
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VzDnWtcmNn)
